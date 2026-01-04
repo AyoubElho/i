@@ -4,34 +4,31 @@
 
 <h2>Exercise 1</h2>
 
-<p>
+<pre>
 Write a Java program that stores student grades entered via the keyboard in an array named
-<strong>grades</strong>, and allows the following operations to be performed:
-</p>
+grades, and allows the following operations to be performed:
 
-<ul>
-    <li>Sort and display the list of grades</li>
-    <li>Display the average grade</li>
-    <li>Display the highest and lowest grades</li>
-    <li>Display the number of students with a grade entered by the user</li>
-</ul>
+1. Sort and display the list of grades
+2. Display the average grade
+3. Display the highest and lowest grades
+4. Display the number of students with a grade entered by the user
 
-<p><strong>Note:</strong> To sort the array, use <code>Arrays.sort()</code>.</p>
+NB: To sort the array, use Arrays.sort().
+</pre>
 
 <h3>Solution</h3>
 
-<img alt="Exercise 1 Solution" src="https://github.com/user-attachments/assets/f5ea486b-cd35-40ba-a867-b5768d64ecf2" />
+<img alt="Exercise 1 Solution"
+     src="https://github.com/user-attachments/assets/f5ea486b-cd35-40ba-a867-b5768d64ecf2" />
 
 <hr>
 
 <h2>Exercise 2</h2>
 
-<p>
-Write a program that reads a first group verb and displays its conjugation in the present tense in
-the following form:
-</p>
-
 <pre>
+Write a program that reads a first group verb and displays its conjugation in the present tense
+in the following form:
+
 Entrez un verbe du premier groupe : chanter
 → je chante
 → tu chantes
@@ -39,49 +36,49 @@ Entrez un verbe du premier groupe : chanter
 → nous chantons
 → vous chantez
 → ils/elles chantent
-</pre>
 
-<p>
-The program checks that the verb ends with <strong>er</strong> and assumes that it is a regular verb.
-</p>
+The program checks that the verb ends with "er" and assumes that it is a regular verb.
+</pre>
 
 <h3>Solution</h3>
 
-<img alt="Exercise 2 Solution" src="https://github.com/user-attachments/assets/5524933d-b20d-4b80-a406-5ebeff4f8413" />
+<img alt="Exercise 2 Solution"
+     src="https://github.com/user-attachments/assets/5524933d-b20d-4b80-a406-5ebeff4f8413" />
 
 <hr>
 
 <h2>Exercise 3</h2>
 
-<p>
-Write a Java program that performs a set of operations on a character string entered from the
-keyboard. The program consists of a menu with the following operations:
-</p>
+<pre>
+Write a Java program that performs a set of operations on any character string entered from the
+keyboard. This program consists of a menu with a choice of operations to perform.
 
-<ul>
-    <li>Enter: read a character string and store it</li>
-    <li>Display: display the entered string</li>
-    <li>Reverse: reverse the string</li>
-    <li>Number of words: count words (space is the separator, multiple spaces allowed)</li>
-</ul>
+Operations:
+1. Enter: read a character string from the keyboard and store it in a variable
+2. Display: display the entered string
+3. Reverse: reverse the entered string
+4. Number of words: count the number of words in the string
+   (space is the separator; multiple consecutive spaces allowed)
+</pre>
 
 <h3>Solution</h3>
 
-<img alt="Exercise 3 Solution" src="https://github.com/user-attachments/assets/5a217d04-1ef8-44f4-8482-83453adf1032" />
+<img alt="Exercise 3 Solution"
+     src="https://github.com/user-attachments/assets/5a217d04-1ef8-44f4-8482-83453adf1032" />
 
 <hr>
 
 <h2>Exercise 4</h2>
 
-<p>
-Write a Java program that reads a string <strong>ch</strong> and counts the occurrences of alphabet letters
-(case-insensitive). Use a 26-dimensional array <strong>nb_occurrences</strong>.
-Display only letters that appear at least once.
-</p>
-
-<p><strong>Example:</strong></p>
-
 <pre>
+Write a Java program that reads a string of characters ch from the keyboard and counts the
+occurrences of letters in the alphabet without distinguishing between uppercase and lowercase
+letters.
+
+Use a 26-dimensional array nb_occurrences to store the result.
+Display only the letters that appear at least once.
+
+Example:
 Enter a line of text: Jeanne
 
 The string "Jeanne" contains:
@@ -93,4 +90,5 @@ The string "Jeanne" contains:
 
 <h3>Solution</h3>
 
-<img alt="Exercise 4 Solution" src="https://github.com/user-attachments/assets/fc612f08-41ee-47ea-ace0-4f4ab90a0351" />
+<img alt="Exercise 4 Solution"
+     src="https://github.com/user-attachments/assets/fc612f08-41ee-47ea-ace0-4f4ab90a0351" />
